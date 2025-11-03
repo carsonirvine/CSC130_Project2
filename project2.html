@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="project2.js" defer></script>
+	<link href="project2.css" type="text/css" rel="stylesheet">
+	
+	<title>Carson Irvine Project 2</title>
+</head>
+<body>
+	<div id="title">
+		<h1>Who's That Pokemon!</h1>
+	</div>
+	
+	<div id="input">
+		<div class="pokemon-name">Pokemon Name:<input type="text" id="pokemon-name"></div>
+		<button class="input-button" onclick="submit()">Go!</button>
+	</div>
+	
+	<div id="output">
+		<div class="stat-table">
+			<table>
+				<tr><td>ID: </td><td id="id"></td></tr>
+				<tr><td>HP: </td><td id="hp"></td></tr>
+				<tr><td>Attack: </td><td id="attack"></td></tr>
+				<tr><td>Defense: </td><td id="defense"></td></tr>
+				<tr><td>Special Attack: </td><td id="special-attack"></td></tr>
+				<tr><td>Special Defense: </td><td id="special-defense"></td></tr>
+				<tr><td>Speed: </td><td id="speed"></td></tr>
+			</table>
+		</div>
+	</div>
+	
+	<div id="region">
+		<p id="region-text"></p>
+		<img id="region-image"></img>
+	</div>
+</body>
+</html>
